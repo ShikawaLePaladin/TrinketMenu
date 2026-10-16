@@ -1,7 +1,8 @@
 ## Interface: 11200
 ## Title: TrinketMenu - Fix
 ## Author: Gello
-## Notes: AddOn to manage trinkets, fix by Ogrisch
+## Notes: AddOn to manage trinkets, fix by Ogrisch, bug-fix pass 2026-10 (OctoWoW)
+## Version: 3.41-octo1
 ## SavedVariables: TrinketMenuOptions
 ## SavedVariablesPerCharacter: TrinketMenuPerOptions, TrinketMenuQueue
 TrinketMenu.lua

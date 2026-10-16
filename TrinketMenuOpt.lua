@@ -68,6 +68,7 @@ function TrinketMenu.InitOptions()
 		TrinketMenu_SubOptFrame:SetPoint("TOPLEFT",TrinketMenu_OptFrame,"TOPLEFT",8,-24)
 	end
 	TrinketMenu_OptColumnsSlider:SetValue(TrinketMenuOptions.Columns)
+	TrinketMenu_OptColumnsSliderText:SetText(TrinketMenuOptions.Columns.." trinkets") -- the slider only updates it when its value changes
 	TrinketMenu.ReflectLock()
 	TrinketMenu.ReflectCooldownFont()
 	TrinketMenu.ReflectKeyBindings()

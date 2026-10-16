@@ -210,9 +210,6 @@
 			<OnMouseUp>
 				TrinketMenu.MainFrame_OnMouseUp(arg1)
 			</OnMouseUp>
-			<OnHide>
-				TrinketMenu_MenuFrame:Hide()
-			</OnHide>
 			<OnShow>
 				TrinketMenu.OnShow()
 			</OnShow>
